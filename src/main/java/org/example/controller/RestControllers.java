@@ -38,7 +38,7 @@ public class RestControllers {
 
     @PutMapping ("/update")
     public Invoices updateInvoice (@RequestBody Invoices invoice){
-        return invoiceService.saveInvoice(invoice);
+        return invoiceService.updateInvoice(invoice);
     }
 
 }
