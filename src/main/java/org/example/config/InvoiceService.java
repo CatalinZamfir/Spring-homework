@@ -41,4 +41,5 @@ public class InvoiceService {
                 existingInvoice.setPrice(invoice.getPrice());
                 return repository.save(existingInvoice);
     }
+
 }

@@ -41,5 +41,4 @@ public class RestControllers {
         return invoiceService.saveInvoice(invoice);
     }
 
-
 }

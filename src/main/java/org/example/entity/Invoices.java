@@ -48,4 +48,5 @@ public class Invoices {
     public void setPrice(double price) {
         this.price = price;
     }
+
 }
